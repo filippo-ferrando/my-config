@@ -2,6 +2,7 @@
 
 # greeter
 paru -S greetd-tuigreet
+sudo mv ./config.tml /etc/greetd/config.toml
 
 # editor
 paru -S nvim fzf npm
@@ -10,6 +11,9 @@ rm -rf ~/.config/nvim/.git
 
 # additional 
 paru -S hyprmon-bin hyprpolkitagent thunar docker distrobox lazygit lazydocker tumbler vorta tailscale gh-cli telegram-desktop spotify vesktop gvfs gnome-disk-utility wireguard-tools
+
+# my-alias
+./aliases.sh
 
 # dots
 paru -S caelestia-shell
@@ -22,3 +26,6 @@ ln -s ~/.local/share/caelestia/foot foot
 ln -s ~/.local/share/caelestia/hypr hypr
 ln -s ~/.local/share/caelestia/btop btop
 ln -s ~/.local/share/caelestia/uwsm uwsm 
+
+# hyprmon
+cp ./hyprmon/*.json ~/.config/hyprmon/profiles/
