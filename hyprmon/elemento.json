@@ -7,8 +7,8 @@
       "PxH": 1200,
       "Hz": 60.003,
       "Scale": 1,
-      "X": 352,
-      "Y": 1696,
+      "X": 896,
+      "Y": 1760,
       "Active": true,
       "EDIDName": "Chimei Innolux Corporation 0x1487",
       "Modes": [
@@ -83,14 +83,14 @@
       "MirrorSource": "",
       "MirrorTargets": [],
       "Dragging": false,
-      "DragOffX": 642,
-      "DragOffY": 773
+      "DragOffX": 977,
+      "DragOffY": 345
     },
     {
       "Name": "DP-2",
       "PxW": 3440,
       "PxH": 1440,
-      "Hz": 59.97,
+      "Hz": 59.973,
       "Scale": 1,
       "X": 96,
       "Y": 128,
@@ -223,20 +223,20 @@
           "Hz": 59.94
         }
       ],
-      "BitDepth": 8,
-      "ColorMode": "srgb",
-      "SDRBrightness": 1,
-      "SDRSaturation": 1,
+      "BitDepth": 0,
+      "ColorMode": "",
+      "SDRBrightness": 0,
+      "SDRSaturation": 0,
       "VRR": 0,
       "Transform": 0,
       "IsMirrored": false,
       "MirrorSource": "",
       "MirrorTargets": [],
       "Dragging": false,
-      "DragOffX": 386,
-      "DragOffY": 721
+      "DragOffX": 0,
+      "DragOffY": 0
     }
   ],
-  "created_at": "2025-12-09T08:56:41.62348599+01:00",
-  "updated_at": "2025-12-09T08:56:41.62348618+01:00"
+  "created_at": "2025-12-09T18:24:52.222221748+01:00",
+  "updated_at": "2025-12-09T18:24:52.222221939+01:00"
 }
