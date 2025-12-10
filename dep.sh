@@ -9,8 +9,8 @@ paru -S nvim fzf npm
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 
-# additional 
-paru -S hyprmon-bin hyprpolkitagent thunar docker distrobox lazygit lazydocker lazyssh tumbler vorta tailscale gh-cli telegram-desktop spotify vesktop gvfs gnome-disk-utility wireguard-tools
+# additional
+paru -S hyprmon-bin hyprpolkitagent thunar thunar-archive-plugin docker docker-compose uv distrobox lazygit lazydocker lazyssh tumbler vorta tailscale gh-cli telegram-desktop spotify vesktop gvfs gnome-disk-utility wireguard-tools gnome-disk-utility thunar-vfs-davs file-roller
 
 # my-alias
 ./aliases.sh
@@ -28,5 +28,4 @@ cd ~/.config
 ln -s ~/.local/share/caelestia/foot foot
 ln -s ~/.local/share/caelestia/hypr hypr
 ln -s ~/.local/share/caelestia/btop btop
-ln -s ~/.local/share/caelestia/uwsm uwsm 
-
+ln -s ~/.local/share/caelestia/uwsm uwsm
